@@ -9,12 +9,19 @@ $(document).ready(function() {
  * Function that is called when the document is ready.
  */
 function initializePage() {
-	console.log("Javascript connected!");
+	 console.log("Javascript connected!");
+	 $("a.friendName h3").click(changeName); 
+}
+function changeName(e) {
+	 console.log("Name Clicked");
+	 e.preventDefault();
+	 var newName = $(this).text()
+	 console.log(newName);
+	 	 $(this).text(anagrammedName(newName));
 }
 
 function anagrammedName(name) {
 	// Thanks, Internet Anagram Server!
-	
 	if (name == "Doug Engelbart") {
 		return "Notable Grudge";
 	} 

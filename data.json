@@ -29,6 +29,15 @@
 			"name": "Allen Newell",
 			"description": "Really into psychology",
 			"imageURL": "http://uploads.edubilla.com/awards-winners/92/b4/allen-newell.jpg"
+		}	
+	],
+
+ "newFriend": [
+		{
+			"name": "request.query.name",
+			"description": "request.query.desription",
+			"imageURL": "http://lorempixel.com/400/400/people"
+
 		}
-	]
+ 	 ]
 }
